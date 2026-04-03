@@ -1,0 +1,47 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* ecommerce_inventory_managment
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-25 11:00+0000\n"
+"PO-Revision-Date: 2025-02-25 14:10+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: ecommerce_inventory_managment
+#: model:ir.model.fields,field_description:ecommerce_inventory_managment.field_stock_warehouse__is_ecommerce_warehouse
+msgid "Ecommerce Warehouse"
+msgstr "E-Ticaret Deposu"
+
+#. module: ecommerce_inventory_managment
+#: model:ir.model.fields,help:ecommerce_inventory_managment.field_stock_warehouse__is_ecommerce_warehouse
+msgid "If enabled, products can be sold from this warehouse on the e-commerce website."
+msgstr "Etkinleştirildiğinde, bu depodaki ürünler e-ticaret web sitesinde satışa sunulabilir."
+
+#. module: ecommerce_inventory_managment
+#: model:ir.model.fields,field_description:ecommerce_inventory_managment.field_product_template__ecommerce_warehouse_ids
+msgid "Ecommerce Warehouses"
+msgstr "E-Ticaret Depoları"
+
+#. module: ecommerce_inventory_managment
+#: model:ir.model.fields,help:ecommerce_inventory_managment.field_product_template__ecommerce_warehouse_ids
+msgid "Select the warehouses from which this product can be sold on the e-commerce website."
+msgstr "Bu ürünün e-ticaret web sitesinde satılabileceği depoları seçin."
+
+#. module: ecommerce_inventory_managment
+#: model:ir.model.fields,field_description:ecommerce_inventory_managment.field_product_template__ecommerce_stock_qty
+msgid "Ecommerce Available Qty"
+msgstr "E-Ticaret Mevcut Miktar"
+
+#. module: ecommerce_inventory_managment
+#: model:ir.model.fields,help:ecommerce_inventory_managment.field_product_template__ecommerce_stock_qty
+msgid "Total free quantity available for e-commerce sale across selected warehouses."
+msgstr "Seçilen depolardaki e-ticaret satışı için toplam serbest miktar."
